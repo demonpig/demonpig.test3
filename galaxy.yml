@@ -42,7 +42,7 @@ tags: []
 # range specifiers can be set and are separated by ','
 dependencies: {
   "ansible.posix": "*",
-  "community.general": "*",
+  "community.general": ">=11.0.0",
   "community.postgresql": "*",
   "redhat.rhel_system_roles": "*"
 }
